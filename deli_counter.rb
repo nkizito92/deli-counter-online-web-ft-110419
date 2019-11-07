@@ -7,7 +7,7 @@ def line(someone)
   end
   if someone.length > 1
   puts cur_line
-end
+  end
 end
 
 def take_a_number(array, new_ppl) 
