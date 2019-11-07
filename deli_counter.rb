@@ -20,7 +20,7 @@ end
 # take_a_number(katz_deli, "Jack")
 
 def now_serving(person)
-  if person.length =< 1
+  if person.length <= 1
     puts "Currently serving #{person[0]}."
     person.first
   else 
