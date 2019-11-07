@@ -10,7 +10,7 @@ end
 
 def take_a_number(array, new_ppl) 
   array.push(new_ppl)
-  puts "Welcome, #{new_ppl}. You are number #{array.index(new_ppl)+1} in line"
+  puts "Welcome, #{new_ppl}. You are number #{array.index(new_ppl)+1} in line."
 end
 # take_a_number(katz_deli, "Jack")
 
