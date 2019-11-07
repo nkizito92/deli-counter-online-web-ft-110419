@@ -16,7 +16,7 @@ end
 
 def now_serving(person)
   if person.length >= 1
-    puts "Currently serving #{person[0]}."
+    puts "Currently serving #{person[0].shift}."
   else 
     puts "There is nobody waiting to be served!"
   end
