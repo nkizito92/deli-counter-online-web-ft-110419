@@ -1,5 +1,5 @@
 # Write your code here
-katz_deli = ["Tom","James", "Chris"]
+#katz_deli = ["Tom","James", "Chris"]
 def line(someone) 
   cur_line = "The line is currently:" 
   someone.each.with_index(1) do |num, name|
