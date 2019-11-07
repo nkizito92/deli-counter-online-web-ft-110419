@@ -12,8 +12,8 @@ def take_a_number(array, new_ppl)
   array.push(new_ppl)
   array.each.with_index(1) do |person, num|
     array.push(number)
+  puts "Welcome, #{person}. You are number #{num} in line"
   end 
-  puts "Welcome, #{new_ppl}. You are number #{array} in line"
 end
 # take_a_number(katz_deli, "Jack")
 
