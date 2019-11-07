@@ -6,8 +6,10 @@ def line(someone)
     cur_line << " #{name}. #{num}"
   end
   if someone.length > 1
-  puts cur_line
-  end
+   puts cur_line
+ else 
+  end 
+  
 end
 
 def take_a_number(array, new_ppl) 
