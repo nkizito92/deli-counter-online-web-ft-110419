@@ -20,6 +20,10 @@ take_a_number(katz_deli, "Jack")
 def now_serving(person)
   if person.length >= 1
     puts "Currently serving #{person[0]}."
+<<<<<<< HEAD
+=======
+    person.first
+>>>>>>> 3501675f1ed152ab0bbe20cc463af42237076f98
   else 
     puts "There is nobody waiting to be served!"
   end
