@@ -8,14 +8,14 @@ def line(someone)
   puts cur_line
 end
 
-# def take_a_number(array, new_ppl) 
-#   array.push(new_ppl)
-#   array.each.with_index(1) do |number|
-#     array.push(number)
-#   end 
-#   puts "Welcome, #{new_ppl}. You are number #{array} in line"
-# end
-# take_a_number(katz_deli, "Jack")
+def take_a_number(array, new_ppl) 
+  array.push(new_ppl)
+  array.each.with_index(1) do |number|
+    array.push(number)
+  end 
+  puts "Welcome, #{new_ppl}. You are number #{array} in line"
+end
+take_a_number(katz_deli, "Jack")
 
 def now_serving(person)
   if person.length >= 1
