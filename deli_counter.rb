@@ -5,11 +5,8 @@ def line(someone)
   someone.each.with_index(1) do |num, name|
     cur_line << " #{name}. #{num}"
   end
-  if someone.length < 1
-    puts "The line is currently empty."
- else 
-   puts cur_line
-  end 
+  someone.length < 1  ? puts "The line is currently empty." : puts cur_line
+
   
 end
 
