@@ -6,8 +6,9 @@ def line(someone)
     cur_line << " #{name}. #{num}"
   end
   if someone.length > 1
-   puts cur_line
+    puts "The line is currently empty."
  else 
+   puts cur_line
   end 
   
 end
