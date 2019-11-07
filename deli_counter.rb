@@ -15,9 +15,5 @@ end
 # take_a_number(katz_deli, "Jack")
 
 def now_serving(person)
-  person.length >= 1 ?
-    (puts "Currently serving #{person.shift}.")
-  else 
-    (puts "There is nobody waiting to be served!")
-  end
+  person.length >= 1 ? (puts "Currently serving #{person.shift}.") : (puts "There is nobody waiting to be served!")
 end 
