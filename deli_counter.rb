@@ -21,7 +21,7 @@ end
 
 def now_serving(person)
   if person.length >= 1
-    puts "Currently serving #{person[1]}."
+    puts "Currently serving #{person[log10]}."
     person.first
   else 
     puts "There is nobody waiting to be served!"
